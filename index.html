@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="text">
+                <h1><b>Simple traffic based pricing</b></h1>
+                <h3>Sign up for our 30-day trial. No credit card required.</h3>
+            </div>
+            <div class="container">
+                <div class="upper">
+                    <p id="pageviews">100K PAGEVIEWS</p>
+                    <p><span id="money" class="money"><b>$16.00</b></span>/month</p>
+                </div>
+                <input type="range" min="1" max="6" value="5" id="range">
+                <div id="check">
+                    <p>Monthly Billing</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                    <p>Yearly Billing</p>
+                    <p class="discount">25% discount</p>
+                </div>
+                <hr>
+                <div class="lower">
+                    <div class="text">
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+                            <p>Unlimited Websites</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+                            <p>100% data ownership</p>
+                        </div>
+                        <div class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+                            <p>Email Reports</p>
+                        </div>
+                    </div>
+                    <button>Start My Trial</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
